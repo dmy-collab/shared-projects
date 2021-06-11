@@ -28,7 +28,7 @@ plt.title("The Elbow Method")
 plt.xlabel('Number of clusters')
 plt.ylabel('WCSS')
 plt.show()      # from the graph, 18 - is the optimal value
-print(kmeans.labels_)
+print(f'\n K-means labels: {kmeans.labels_}')
 
 # Assigning the cluster numbers retrieved from the step above to the ID_REF:
 cluster_genes =\
